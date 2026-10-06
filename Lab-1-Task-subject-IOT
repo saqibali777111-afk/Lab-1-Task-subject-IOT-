@@ -1,0 +1,54 @@
+# Name Saqib Ali
+# Roll Number 86
+# LAB 1
+
+# Q1
+
+name = input("Enter your name: ")
+
+print("Hello,", name)
+
+
+# Q2
+
+hours = float(input("Enter hours worked: "))
+rate = float(input("Enter hourly rate: "))
+
+gross_pay = hours * rate
+
+print("Gross Pay:", gross_pay)
+
+
+# Q3
+
+celsius = float(input("Enter temperature in Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print("Temperature in Fahrenheit:", fahrenheit)
+
+
+
+# Q4
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+result = num1 ** num2
+
+print("Result:", result)
+
+
+# Q5
+
+age = 20
+item = 5
+
+print("age : ", age)
+print("items : ", item)
+
+age = float(age)
+item = float(item)
+
+print("age : ", age)
+print("items: ", item)
